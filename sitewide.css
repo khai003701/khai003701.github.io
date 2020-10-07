@@ -1,4 +1,16 @@
-	@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+			@font-face {
+			font-family: 'Whitney Semibold Regular';
+			font-style: normal;
+			font-weight: normal;
+			src: local('Whitney Semibold Regular'), url('whitneysemibold.woff') format('woff');
+			}
+			
+			@font-face {
+			font-family: 'Whitney Light Regular';
+			font-style: normal;
+			font-weight: normal;
+			src: local('Whitney Light Regular'), url('whitneylight.woff') format('woff');
+			}
 			
 			.html {
 			font-size: 10px;
@@ -11,7 +23,7 @@
 			
 			.h1 {
 			color: rgb(252,252,252);
-			font-family: 'Roboto', sans-serif;
+			font-family:'Whitney Semibold Regular';
 			font-size: 2.8rem;
 			text-align: left;
 			margin: 1.7% 2.2%;
@@ -19,7 +31,7 @@
 			
 			.ul {
 			color: rgb(243,243,243);
-			font-family: Arial, Helvetica, sans-serif;
+			font-family:'Whitney Light Regular';
 			font-size: 1rem;
 			text-align: left;
 			margin: 1.7% 2.2%;
@@ -27,7 +39,7 @@
 			
 			.p {
 			color: rgb(243,243,243);
-			font-family: Arial, Helvetica, sans-serif;
+			font-family:'Whitney Light Regular';
 			font-size: 1rem;
 			text-align: left;
 			margin: 1.7% 2.2%;
@@ -46,7 +58,7 @@
 			height: 60px;
 			line-height: 60px;
 			color: #F2F2F2;
-			font-family: Arial, Helvetica, sans-serif;
+			font-family:'Whitney Light Regular';
 			width: 100px;
 			font-size: 16px;
 			font-weight: 100;
@@ -72,7 +84,7 @@
 			.accordion {
 			box-sizing: border-box;
 			display: flex;
-			font-family: Arial, Helvetica, sans-serif;
+			font-family:'Whitney Light Regular';
 			overflow: hidden;
 			width: 100%;
 			}
