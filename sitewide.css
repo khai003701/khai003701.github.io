@@ -11,6 +11,10 @@
 			font-weight: normal;
 			src: local('Whitney Light Regular'), url('whitneylight.woff') format('woff');
 			}
+
+			.ytembed {
+			margin: 1.7% 2.2%;
+			}
 			
 			.html {
 			font-size: 10px;
