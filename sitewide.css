@@ -1,19 +1,6 @@
-			@font-face {
-			font-family: 'Whitney Semibold Regular';
-			font-style: normal;
-			font-weight: normal;
-			src: local('Whitney Semibold Regular'), url('/fonts/whitneysemibold.woff') format('woff');
-			}
-			
-			@font-face {
-			font-family: 'Whitney Light Regular';
-			font-style: normal;
-			font-weight: normal;
-			src: local('Whitney Light Regular'), url('/fonts/whitneylight.woff') format('woff');
-			}
-
 			.ytembed {
-			margin: 1.7% 2.2%;
+			margin: auto;
+			width: 50%;
 			}
 			
 			.html {
@@ -21,171 +8,36 @@
 			}
 			
 			.body {
-			background-color: rgb(69, 69, 69);
+			background-color: rgb(0, 0, 0);
 			margin: auto;
 			}
 			
 			.h1 {
-			color: rgb(252,252,252);
-			font-family:'Whitney Semibold Regular';
+			color: rgb(255,255,0);
+			font-family:'Times New Roman';
 			font-size: 2.8rem;
-			text-align: left;
-			margin: 1.7% 2.2%;
+			text-align: center;
 			}
 			
 			.ul {
-			color: rgb(243,243,243);
-			font-family:'Whitney Light Regular';
+			color: rgb(255,255,0);
+			font-family:'Times New Roman';
 			font-size: 1rem;
-			text-align: left;
-			margin: 1.7% 2.2%;
+			text-align: center;
 			}
 			
 			.p {
-			color: rgb(243,243,243);
-			font-family:'Whitney Light Regular';
+			color: rgb(255,255,0);
+			font-family:'Times New Roman';
 			font-size: 1rem;
-			text-align: left;
-			margin: 1.7% 2.2%;
+			text-align: center;
 			}
 			
 			.img {
-			margin: 1.7% 2.2%;
+			display: block;
+ 			margin-left: auto;
+			margin-right: auto;
+			width: 40%;
 			float: none;
 			border-radius: 8px;
 			}
-			
-			.button {
-			-webkit-border-radius: 20px;
-			-moz-border-radius: 20px;
-			border-radius: 20px;
-			height: 60px;
-			line-height: 60px;
-			color: #F2F2F2;
-			font-family:'Whitney Light Regular';
-			width: 100px;
-			font-size: 16px;
-			font-weight: 100;
-			padding: 0;
-			background-color: #454545;
-			text-shadow: 1px 1px 17px #000000;
-			border: solid #454545 1px;
-			text-decoration: none;
-			display: inline-block;
-			cursor: pointer;
-			text-align: center;
-			}
-
-			.button:hover {
-			background: #938CD8;
-			border: solid #938CD8 1px;
-			-webkit-border-radius: 20px;
-			-moz-border-radius: 20px;
-			border-radius: 20px;
-			text-decoration: none;
-			}
-			
-			.accordion {
-			box-sizing: border-box;
-			display: flex;
-			font-family:'Whitney Light Regular';
-			overflow: hidden;
-			width: 100%;
-			}
-
-			.accordion-select {
-			cursor: pointer;
-			margin: 0;
-			opacity: 0;
-			z-index: 1;
-			}
-
-			.accordion-title {
-			position: relative;
-			}
-
-			.accordion-title:not(:nth-last-child(2))::after {
-			border: 1px solid transparent;
-			bottom: 0;
-			content: '';
-			left: 0;
-			position: absolute;
-			right: 0;
-			top: 0;
-			}
-
-			.accordion-title span {
-			bottom: 0px;
-			box-sizing: border-box;
-			display: block;
-			position: absolute;
-			white-space: nowrap;
-			width: 100%;
-			}
-
-			.accordion-content {
-			box-sizing: border-box;
-			overflow: auto;
-			position: relative;
-			transition: margin 0.3s ease 0.1s;
-			}
-
-			.accordion-select:checked + .accordion-title + .accordion-content {
-			margin-bottom: 0;
-			margin-right: 0;
-			}
-
-/* Generated styles starts here */
-
-			.accordion {
-			border-color: #454545;
-			border-radius: 0px;
-			border-style: solid;
-			border-width: 17px;
-			flex-direction: column;
-			height: auto;
-			} 
-
-			.accordion-title,
-			.accordion-select  {
-			background-color: #454545;
-			color: #f3f3f3;
-			width: 100%;
-			height: 50px;
-			font-size: 17px;
-			}
-
-			.accordion-select {
-			margin-bottom: -50px;
-			margin-right: 0;
-			}
-
-			.accordion-title:not(:nth-last-child(2))::after {
-			border-bottom-color: #f3f3f3;
-			border-right-color: transparent;
-			} 
-
-			.accordion-select:hover + .accordion-title,
-			.accordion-select:checked + .accordion-title {
-			background-color: #938cd8;
-			} 
-
-			.accordion-title span  {	
-			transform: rotate(0deg);
-			-ms-writing-mode: lr-tb;
-			filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
-			padding-left: 25px;
-			padding-right: 25px;
-			line-height: 50px;
-			} 
-
-			.accordion-content {
-			background-color: #636363;
-			color: #f3f3f3;
-			height: 300px;
-			margin-bottom: -300px;
-			margin-right: 0;
-			padding: 25px;
-			width: 100%;
-			} 
-
