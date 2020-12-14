@@ -15,21 +15,42 @@
 			.h1 {
 			color: rgb(255,255,0);
 			font-family:'Times New Roman';
-			font-size: 2.8rem;
+			font-size: 3rem;
+			text-align: center;
+			}
+			
+			.h3 {
+			color: rgb(255,255,0);
+			font-family:'Times New Roman';
+			font-size: 1.6rem;
 			text-align: center;
 			}
 			
 			.ul {
 			color: rgb(255,255,0);
 			font-family:'Times New Roman';
-			font-size: 1rem;
+			font-size: 1.2rem;
+			text-align: center;
+			}
+			
+			.a {
+			color: rgb(255,255,0);
+			font-family:'Times New Roman';
+			font-size: 1.2rem;
+			text-align: center;
+			}
+			
+			.ol {
+			color: rgb(255,255,0);
+			font-family:'Times New Roman';
+			font-size: 1.2rem;
 			text-align: center;
 			}
 			
 			.p {
 			color: rgb(255,255,0);
 			font-family:'Times New Roman';
-			font-size: 1rem;
+			font-size: 1.2rem;
 			text-align: center;
 			}
 			
@@ -40,4 +61,29 @@
 			width: 40%;
 			float: none;
 			border-radius: 8px;
+			}
+			
+			hr {
+            border: none;
+            border-top: 3px double #fff;
+            color: #fff;
+            overflow: visible;
+            text-align: center;
+            height: 5px;
+            }
+			
+			* {
+			box-sizing: border-box;
+			}
+
+			.img-container {
+			display:inline-block;
+			width: 320px;
+			height: 500px;
+			}
+
+			.clearfix::after {
+			content: "";
+			clear: both;
+			display: table;
 			}
