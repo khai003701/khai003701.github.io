@@ -64,26 +64,11 @@
 			}
 			
 			hr {
-            border: none;
-            border-top: 3px double #fff;
-            color: #fff;
-            overflow: visible;
-            text-align: center;
-            height: 5px;
-            }
+            		border: none;
+            		border-top: 3px double #fff;
+            		color: #fff;
+            		overflow: visible;
+            		text-align: center;
+            		height: 5px;
+           		}
 			
-			* {
-			box-sizing: border-box;
-			}
-
-			.img-container {
-			display:inline-block;
-			width: 320px;
-			height: 500px;
-			}
-
-			.clearfix::after {
-			content: "";
-			clear: both;
-			display: table;
-			}
